@@ -1,9 +1,21 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+h1.title {
+    color: red;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 50px;
+    margin-left: 10px;
+  }
+
+  #content {
+    background-color: black;
+    width: 1500px;
+    min-height: 300px;
     padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    margin: 10px;
+    border: solid red;
   }
