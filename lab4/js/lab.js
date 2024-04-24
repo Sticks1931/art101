@@ -1,7 +1,7 @@
 // Pseudocode - Watercolor Painting and RPS
 // Author: Sean Yabut
 // Date: 4/23/24
-
+  
 // Watercolor Painting:
 
  // 1. Find an area to work
