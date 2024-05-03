@@ -13,4 +13,4 @@ function nameSort() {
 }
 
 // Output: 
-document.writeln("Here's your new name: " + nameSort(), "</br>");
+document.writeln("Here's your new name below: ", "<div class = nameOutput>", nameSort(), "</div>");
