@@ -24,13 +24,19 @@
         result = x - 3;
         return result;
     }) + "]"); 
-    ;
+    
 
 // Function Outputs Displyed on Page:
  // Your map results data
- var mapResults = ""
-   
-    
+    let arrayResult = "Here's the array: " + "[" + array + "]";
+    let mapResultOne = "Here's the array when 5 has been added to each number via the callback function: " + "[" + array.map(add) + "]";
+    let mapResultTwo = "Here's the array when 3 has been subtracted from each number via the anonymous function: " + "[" +
+    array.map(function(x) {
+        result = x - 3;
+        return result;
+    }) + "]";
+
 
  // Use jQuery to select the element by its ID and set the HTML content
- $("#output").html(mapResults);
+ $("#output").html(arrayResult + "</br>" +  mapResultOne + "</br>" + mapResultTwo);
+ 
