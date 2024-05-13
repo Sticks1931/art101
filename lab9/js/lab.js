@@ -12,7 +12,7 @@
     // Results Button
     $("#results").append("<button id='button-results'>Make Special</button>");
 
-    // Event Listeners
+// Event Listeners toggle the special class upon button press
     $("#button-challenge").click(function(){
         $("#challenge").toggleClass("special");
     });
