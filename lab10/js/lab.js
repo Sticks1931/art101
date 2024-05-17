@@ -2,6 +2,9 @@
 // Author: Sean Yabut
 // Date: 5/6/24
 
+// alt variable to switch text sides
+let alt = false;
+
 // generates random text
 function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -20,6 +23,15 @@ $("#make-convo").click(function() {
     // get new fake dialogue
     const newText = generateRandomText();
 
+    // conditional that swithces that alternates the text from left to right
+    if (alt == false) {
     // append a new div to our output div
-    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+    $("#output").append('<div class="text-left"><p>' + newText + '</p></div>');
+    alt = true;
+    console.log("to the left")
+    } else {
+    $("#output").append('<div class="text-right"><p>' + newText + '</p></div>');
+    alt = false;
+    console.log("to the right")
+    }
 });
