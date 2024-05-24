@@ -23,7 +23,7 @@ function sortingHat(str) {
 
 // Event Listener
 $("#button").click(function() {
-    
+
     // Sets str to user input
     const name = $("input").val();
 
@@ -32,4 +32,5 @@ $("#button").click(function() {
 
     // Prints the user's assigned house
     $("#output").html('<div class="text"><p>' + "Your assigned house is: " + house + '</p></div>');
+
 })
