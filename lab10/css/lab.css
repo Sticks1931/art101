@@ -1,0 +1,35 @@
+
+.text-left p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(63, 39, 39);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+
+    
+  }
+
+.text-right p {
+    display: inline;
+    float: right;
+    clear: right;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(63, 39, 39);
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+  }
+
+button {
+    color: red;
+    background: black;
+    border-color: red;
+}
+

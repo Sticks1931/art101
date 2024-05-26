@@ -1,0 +1,12 @@
+.special {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: black;
+    border-color: red;
+}

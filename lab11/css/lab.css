@@ -1,0 +1,13 @@
+input {
+    color: red;
+    background: black;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    color: red;
+    background: black;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
