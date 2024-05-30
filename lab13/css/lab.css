@@ -1,0 +1,12 @@
+button {
+    background-color: black;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+#output {
+    column-count: 10;
+    column-gap: 10px;
+    border-color: red;
+}
