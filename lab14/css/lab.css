@@ -1,0 +1,39 @@
+
+h1,h2,h3 {
+    color: red;
+  }
+  
+  h1 {
+    color: red;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  #content {
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px red;
+    background-color: black;
+  }
+  
+  .minor-section {
+    color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px red;
+    background-color: black;
+  }
+  
+  #output {
+    border-color: red;
+    background-color: black;
+  }
+  
+  button {
+    border-color: red;
+    color: red;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
