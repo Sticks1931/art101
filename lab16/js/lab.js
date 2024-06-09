@@ -6,28 +6,28 @@
 
 // Using the core $.ajax() method
 $.ajax( comicObj = {
-    // The URL for the request (from the api docs)
     url: "https://xkcd.com/info.0.json",
-    // The data to send (will be converted to a query string)
     data: {},
-    // Whether this is a POST or GET request
     type: "GET",
-    // The type of data we expect back
     dataType : "json",
-    // What do we do when the api call is successful
-    //   all the action goes in here
     success: function(data) {
-        
-        console.log(data);
+        const title = data.title;
+        const img = data.img;
+        const alt = data.alt;
+
+        // Print on page
+        $("#title").append(title);
+        $("#img").append("<img src='" + img + "' />");
+        $("#alt").append(alt);
+
     },
-    // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) { 
-        // do stuff
         console.log("Error:", textStatus, errorThrown);
     }
 })
 
-const comicObj = {
+/*
+Data guide:
     month: data.month,
     num: data.num,
     link: data.link,
@@ -39,4 +39,4 @@ const comicObj = {
     img: data.img,
     title: data.title,
     day: data.day
-}
+ */
