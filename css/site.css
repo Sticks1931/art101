@@ -55,3 +55,9 @@ button {
   background-color: black;
   font-family: 'Courier New', Courier, monospace;
 }
+
+button:hover {
+  border-color: black;
+  background-color: red;
+  color: black;
+}
